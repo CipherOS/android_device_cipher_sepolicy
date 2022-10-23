@@ -3,3 +3,10 @@ allow platform_app nfc_service:service_manager find;
 
 # Allow FOD HAL service to be found
 hal_client_domain(platform_app, hal_lineage_fod)
+
+# Oplus services
+allow platform_app opluscustomize_service:service_manager find;
+allow platform_app oplusdevicepolicy_service:service_manager find;
+allow platform_app coverage_service:service_manager find;
+allow platform_app oplusoiface_service:service_manager find;
+allow platform_app OplusResourceManagerService_service:service_manager find;

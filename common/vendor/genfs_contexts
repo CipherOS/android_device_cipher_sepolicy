@@ -1,0 +1,2 @@
+# Oplus
+genfscon proc /memory_monitor u:object_r:oplus_mem_monitor:s0

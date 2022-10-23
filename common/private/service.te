@@ -7,3 +7,28 @@ type lineage_weather_service, system_api_service, system_server_service, service
 
 # App Lock
 type applock_service, system_api_service, system_server_service, service_manager_type;
+
+#Oplus
+type OPLUSExService_service, system_api_service, system_server_service, service_manager_type;
+type OplusResourceManagerService_service, service_manager_type;
+type app_compatibility_service, system_server_service, app_api_service, service_manager_type;
+type athena_service, system_api_service, service_manager_type;
+type opluscustomize_service, service_manager_type;
+type oplusdevicepolicy_service, service_manager_type;
+type oplusoiface_service, service_manager_type;
+type osense_service, system_api_service, service_manager_type, system_server_service;
+type oplus_accesscontrol_service, system_server_service, app_api_service, service_manager_type;
+type oplus_network_management_service, system_server_service, system_api_service, service_manager_type;
+type networking_control_service, system_server_service, system_api_service, service_manager_type;
+type additional_service, system_server_service, app_api_service, system_api_service, service_manager_type;
+type power_monitor, system_server_service, system_api_service, service_manager_type;
+type usage_service, system_server_service, system_api_service, service_manager_type;
+type secrecy_service, system_server_service, app_api_service, service_manager_type;
+type engineer_service, system_server_service, system_api_service, service_manager_type;
+type oplus_app_data_service, service_manager_type;
+type alipay_service, system_server_service, app_api_service, service_manager_type;
+type color_screenshot_service, system_server_service, app_api_service, service_manager_type;
+type anti_root_dialog, system_api_service, service_manager_type;
+type hephaestus_app_data_service, service_manager_type;
+type KinectService_service, system_api_service, service_manager_type, system_server_service;
+type multimediaDaemon_service, system_api_service, service_manager_type, system_server_service;

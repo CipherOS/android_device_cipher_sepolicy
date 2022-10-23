@@ -4,3 +4,8 @@ vendor.camera.aux.packagelist          u:object_r:exported_system_prop:s0
 
 # Radio
 ro.telephony.use_old_mnc_mcc_format    u:object_r:telephony_config_prop:s0
+
+# Oplus
+persist.sys.assert.panic               u:object_r:exported_system_prop:s0
+persist.sys.themeflag                  u:object_r:exported_system_prop:s0
+ro.build.version.oplusrom              u:object_r:exported_system_prop:s0

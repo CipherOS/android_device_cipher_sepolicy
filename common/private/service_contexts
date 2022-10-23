@@ -8,3 +8,28 @@ adbroot_service                           u:object_r:adbroot_service:s0
 
 # App Lock
 applock                                   u:object_r:applock_service:s0
+
+# Oplus services
+app_compatibility                         u:object_r:app_compatibility_service:s0
+athenaservice                             u:object_r:athena_service:s0
+oplus_accesscontrol                       u:object_r:oplus_accesscontrol_service:s0
+opluscustomize                            u:object_r:opluscustomize_service:s0
+oplusdevicepolicy                         u:object_r:oplusdevicepolicy_service:s0
+OPLUSExService                            u:object_r:OPLUSExService_service:s0
+oplusnetworkmanagement                    u:object_r:oplus_network_management_service:s0
+oplusoiface                               u:object_r:oplusoiface_service:s0
+OplusResourceManagerService               u:object_r:OplusResourceManagerService_service:s0
+osensemanager                             u:object_r:osense_service:s0
+networking_control                        u:object_r:networking_control_service:s0
+additionald                               u:object_r:additional_service:s0
+power_monitor                             u:object_r:power_monitor:s0
+usage                                     u:object_r:usage_service:s0
+secrecy                                   u:object_r:secrecy_service:s0
+engineer                                  u:object_r:engineer_service:s0
+oplus_app_data_service                    u:object_r:oplus_app_data_service:s0
+alipay                                    u:object_r:alipay_service:s0
+color_screenshot                          u:object_r:color_screenshot_service:s0
+anti_root_dialog                          u:object_r:anti_root_dialog_service:s0
+hephaestus_app_data_service               u:object_r:hephaestus_app_data_service:s0
+KinectService                             u:object_r:KinectService_service:s0
+multimediaDaemon                          u:object_r:multimediaDaemon_service:s0

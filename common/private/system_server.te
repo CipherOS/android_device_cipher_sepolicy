@@ -8,3 +8,30 @@ hal_client_domain(system_server, hal_lineage_touch)
 
 # App Lock
 add_service(system_server, applock_service);
+
+# Oplus os data
+allow system_server os_data_file:dir create_dir_perms;
+allow system_server os_data_file:dir rw_dir_perms;
+allow system_server os_data_file:file create_file_perms;
+allow system_server os_data_file:file rw_file_perms;
+
+# Oplus services
+allow system_server athena_service:service_manager add;
+allow system_server opluscustomize_service:service_manager add;
+allow system_server oplusdevicepolicy_service:service_manager add;
+allow system_server osense_service:service_manager add;
+allow system_server oplus_network_management_service:service_manager add;
+allow system_server networking_control_service:service_manager add;
+allow system_server additional_service:service_manager add;
+allow system_server power_monitor:service_manager add;
+allow system_server usage_service:service_manager add;
+allow system_server secrecy_service:service_manager add;
+allow system_server engineer_service:service_manager add;
+allow system_server oplus_app_data_service:service_manager add;
+allow system_server alipay_service:service_manager add;
+allow system_server color_screenshot_service:service_manager add;
+allow system_server anti_root_dialog:service_manager add;
+allow system_server OPLUSExService_service:service_manager add;
+allow system_server hephaestus_app_data_service:service_manager add;
+allow system_server KinectService_service:service_manager add;
+allow system_server multimediaDaemon_service:service_manager add;

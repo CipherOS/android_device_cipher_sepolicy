@@ -18,3 +18,6 @@
 
 # Bash
 /system/xbin/bash          u:object_r:shell_exec:s0
+
+# Oplus
+/data/oplus/os(/.*)?  u:object_r:os_data_file:s0

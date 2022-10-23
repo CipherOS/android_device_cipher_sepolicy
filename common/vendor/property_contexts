@@ -1,0 +1,7 @@
+# Oplus
+ro.vendor.oplus.regionmark          u:object_r:exported_system_prop:s0
+ro.vendor.oplus.operator            u:object_r:exported_system_prop:s0
+ro.vendor.oplus.euex.country        u:object_r:exported_system_prop:s0
+ro.vendor.oplus.exp.version         u:object_r:exported_system_prop:s0
+ro.vendor.oplus.market.name         u:object_r:exported_system_prop:s0
+ro.vendor.oplus.market.enname       u:object_r:exported_system_prop:s0
